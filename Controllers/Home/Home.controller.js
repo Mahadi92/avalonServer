@@ -1,9 +1,18 @@
 const HomeModel = require('')
 
-const getInfo = async (req, res) => { }
-const postInfo = async (req, res) => { }
-const updateInfo = async (req, res) => { }
-const deleteInfo = async (req, res) => { }
+const getInfo = async (req, res) => {
+    res.send("Home => Get")
+}
+const postInfo = async (req, res) => {
+    res.send("Home => Post")
+}
+const updateInfo = async (req, res) => {
+    res.send("Home => Update")
+}
+const deleteInfo = async (req, res) => {
+    res.send("Home => Delete")
+}
+
 
 module.exports = {
     getInfo, postInfo, updateInfo, deleteInfo

@@ -1,9 +1,18 @@
 const DomainModel = require('')
 
-const getInfo = async (req, res) => { }
-const postInfo = async (req, res) => { }
-const updateInfo = async (req, res) => { }
-const deleteInfo = async (req, res) => { }
+const getInfo = async (req, res) => {
+    res.send("Domain => Get")
+}
+const postInfo = async (req, res) => {
+    res.send("Domain => Post")
+}
+const updateInfo = async (req, res) => {
+    res.send("Domain => Update")
+}
+const deleteInfo = async (req, res) => {
+    res.send("Domain => Delete")
+}
+
 
 module.exports = {
     getInfo, postInfo, updateInfo, deleteInfo
